@@ -11,12 +11,11 @@ public class Shoes
       moccasins.color = "brown";
       moccasins.size = 31;
 
-      //I also have a pair of black boots size 32
-      /* Create the boots as a Shoes object */
-      /* Set the boots color to "black". */
-      /* Set the boots size to 32. */
+      Shoes blackboots = new Shoes();
+      blackboots.color = "black";
+      blackboots.size = 32;
 
       System.out.println("I have moccasins size " + moccasins.size);
-      System.out.println("I also have " + boots.color + " boots.");
+      System.out.println("I also have " + blackboots.color + " boots.");
    }
 }
